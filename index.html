@@ -17,19 +17,11 @@
     <script src="src/pathFindingHelper.js"></script>
     <script src="src/sketch.js"></script>
     <script src="src/values.js"></script>
+    <link rel="stylesheet" href="HomePage/css/bootstrap.min.css" />
+
 </head>
 <body>
-    <div id="modal-box-help" class="modal">
-        <div class="modal-content">
-             <button id="modal-close" style="float: right;">Close &times;</button>
-            <span>Path Finding</span>
-            <p></p>
-            <span id="modal-content-text"></span>
-           
-            <p></p>
-          
-        </div>
-    </div>
+   
     <div id="nav-bar">
         <div class="nav-bar-select-group">
             <label for="alg-select" class="nav-bar-label">Algorithm:</label>
@@ -49,16 +41,14 @@
                 <option value="Normal">Normal</option>
                 <option value="Slow">Slow</option>
             </select>
-           <button class="nav-bar-button-item">
-                Time :  
-           </button>
+          
         </div>
         <div class="nav-bar-button-group">
             <button id="maze-button"  class="nav-bar-button-item">Generate Maze</button>
             <button id="reset-button" class="nav-bar-button-item">Reset</button>
             <button id="clear-button" class="nav-bar-button-item">Clear</button>
             <button id="start-button" class="nav-bar-button-item">Start</button>
-            <button id="help-button"  class="nav-bar-button-item">Help</button>
+           
         </div>
     </div>
     <div id="container">

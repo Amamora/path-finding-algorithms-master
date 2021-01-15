@@ -4,12 +4,9 @@ let hSelectLabel;
 let speedSelect;
 let mazeButton;
 let startButton;
-let helpButton;
+
 let clearButton;
 let resetButton;
-let modal;
-let modalCloseButton;
-let modalContentText;
 
 function initDOM() {
     algSelect = document.getElementById("alg-select");
@@ -44,8 +41,9 @@ function initDOM() {
     resetButton = document.getElementById("reset-button");
     clearButton = document.getElementById("clear-button");
     startButton = document.getElementById("start-button");
-    helpButton  = document.getElementById("help-button");
-
+    
+    
+    
     mazeButton.onclick = function () {
         snackbarAlert('Maze generated', snackbarTimeoutShort);
         generateMaze();
@@ -63,29 +61,15 @@ function initDOM() {
 
     startButton.onclick = function () {
         clearPath();
+        
         startPathFinding(currAlg, currHeuristic);
+     
+       
     };
 
-    helpButton.onclick = function () {
-        modal = document.getElementById('modal-box-help');
-        modal.style.display = 'block';
-    };
+    
 
-    modal = document.getElementById('modal-box-help');
-    modal.style.display = 'none';
-    modalCloseButton = document.getElementById('modal-close');
-    modalCloseButton.onclick = () => {
-        modal.style.display = 'none';
-    };
-
-    modalContentText = document.getElementById('modal-content-text');
-    modalContentText.innerText = helpButtonText;
-
-    window.onclick = event => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    };
+    
 
     document.addEventListener('contextmenu', e => e.preventDefault());
 }

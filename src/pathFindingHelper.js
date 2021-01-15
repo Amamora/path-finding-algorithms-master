@@ -1,9 +1,11 @@
+
 function startPathFinding(algorithm, heuristic) {
     if (pointStates[0] === 0 || pointStates[1] === 0) {
         return;
     }
 
     let [startNode, endNode] = findTerminalNodes();
+  
 
     switch (algorithm) {
         case Algorithms['A*']:
@@ -16,7 +18,8 @@ function startPathFinding(algorithm, heuristic) {
             path = bfs(startNode, endNode);
             break;
     }
-
+    
+    
     gameStatus = (path.path === null) ? -1 : 1;
     maxValue = (path.path === null) ? rowCount * colCount : path.totalVisitedNumber;
 }

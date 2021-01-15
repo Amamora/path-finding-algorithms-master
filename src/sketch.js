@@ -18,11 +18,11 @@ function setup() {
     let navBarMarginBottom = parseInt(getComputedStyle(navBar).getPropertyValue('margin-bottom'));
 
     let h = windowHeight - navBar.offsetHeight - navBarMarginBottom;  // Subtract navigation bar height
-    //h = h - (h % r);    // Prevent overflow
-    h=450;
+    h = h - (h % r);    // Prevent overflow
+    
     let w = windowWidth - navBarMarginBottom;
-   // w = w - (w % r);    // Prevent overflow
-w=450;
+    w = w - (w % r);    // Prevent overflow
+
     cnv = createCanvas(w, h);
     cnv.style('display', 'block');
     cnv.parent('container');
