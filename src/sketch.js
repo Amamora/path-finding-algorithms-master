@@ -19,9 +19,15 @@ function setup() {
 
     let h = windowHeight - navBar.offsetHeight - navBarMarginBottom;  // Subtract navigation bar height
     h = h - (h % r);    // Prevent overflow
-    
+
     let w = windowWidth - navBarMarginBottom;
     w = w - (w % r);    // Prevent overflow
+
+    
+    if(windowWidth<430){
+        h=353;
+        w=353;
+    }
 
     cnv = createCanvas(w, h);
     cnv.style('display', 'block');

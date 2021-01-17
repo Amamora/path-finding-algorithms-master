@@ -19,9 +19,10 @@ function startPathFinding(algorithm, heuristic) {
             break;
     }
     
-    
+   
     gameStatus = (path.path === null) ? -1 : 1;
     maxValue = (path.path === null) ? rowCount * colCount : path.totalVisitedNumber;
+   
 }
 
 function findTerminalNodes() {

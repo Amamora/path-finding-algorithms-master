@@ -18,36 +18,7 @@ body {
 p {
   line-height: 2;
 }
-#btn_Started {
-  justify-content: flex-start;
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  padding: 1.5em 2.2em;
-  border: 0;
-  opacity: 1;
-  font-family: 'Clarkson',Helvetica,sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1em;
-  letter-spacing: 0;
-  text-rendering: geometricPrecision;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 12px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  white-space: nowrap;
-  text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -webkit-transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 100ms cubic-bezier(.694,0,.335,1),color 100ms cubic-bezier(.694,0,.335,1);
-  -o-transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 100ms cubic-bezier(.694,0,.335,1),color 100ms cubic-bezier(.694,0,.335,1);
-  transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 100ms cubic-bezier(.694,0,.335,1),color 100ms cubic-bezier(.694,0,.335,1);
-}
-#btn_Started{
-  opacity: .8;
-}
+
 a {
   transition: all 0.3s ease;
 }
@@ -191,7 +162,7 @@ a {
 }
 
 .tm-main-nav {
-  margin-bottom: 160px;
+  margin-bottom: 90px;
 }
 
 .tm-white-rect {

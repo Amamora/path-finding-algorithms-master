@@ -63,6 +63,9 @@ function initDOM() {
         clearPath();
         
         startPathFinding(currAlg, currHeuristic);
+        if(path.path==null){
+            snackbarAlert("this is No solution",snackbarTimeoutLong);
+        }
      
        
     };
