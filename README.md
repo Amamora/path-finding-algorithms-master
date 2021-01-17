@@ -1,6 +1,4 @@
-# Path Finding Algorithms
-![GitHub deployments](https://img.shields.io/github/deployments/mertturkmenoglu/path-finding-algorithms/github-pages) ![GitHub](https://img.shields.io/github/license/mertturkmenoglu/a-star-algorithm) ![GitHub followers](https://img.shields.io/github/followers/mertturkmenoglu.svg?style=social)
-***
+
 <img src="assets/example.gif" alt="Example" width="600" height="290" />
 
 # Table of Contents
@@ -9,10 +7,7 @@
 * [Installing the project](#installing-the-project)
 * [Using Path Finding](#using-path-finding)
 * [Features](#Features)
-* [Contributing](#Contributing)
-* [Authors](#Authors)
-* [Contact](#Contact)
-* [License](#License)
+
 # Description
 * Path finding algorithms implementation using **p5.js**
 * Official **p5.js** website: https://p5js.org/
@@ -32,15 +27,10 @@ Ensure you have met the following requirements:
     ```
     * Run the module:  
     ```
-     http-server ./ -p 1337
+     http-server ./ -p 5500
     ```
-    * Open <a>http://localhost:1337/</a> in a web browser.
-* If you use `Python`, follow these steps:
-    * Run this Python command:  
-    ```python
-    python -m http.server 1337
-    ```
-    * Open <a>http://localhost:1337/</a> in a web browser.
+    * Open <a>http://localhost:5500/</a> in a web browser.
+
 # Using Path Finding 
 * **Left** mouse click will add objects.
 * **Right** mouse click will remove objects.
@@ -65,12 +55,9 @@ Ensure you have met the following requirements:
   
 All ideas and helps are welcome. For more, please contact with me.
 # Authors
-* Mert Türkmenoğlu
-# Contact
-* [@mertturkmenoglu](https://github.com/mertturkmenoglu) on **GitHub**
-* [@mert-turkmenoglu](https://www.linkedin.com/in/mert-turkmenoglu/) on **LinkedIn**
-* [@mertturkmenoglu](https://medium.com/@mertturkmenoglu) on **Medium**
-* [@capreaee](https://twitter.com/capreaee) on **Twitter**
-# License
-* This project uses the following license: [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+*Kalist Laconic (Tống Văn Nam )
+*Nguyễn Hoàng Anh Khoa
+*Hầu Kiến Tín
+
+
 
