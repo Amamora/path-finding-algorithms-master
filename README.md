@@ -11,7 +11,7 @@
 # Description
 * Path finding algorithms implementation using **p5.js**
 * Official **p5.js** website: https://p5js.org/
-* See the LICENSE file for details.
+
 # Prerequisites
 Ensure you have met the following requirements:
 * You have a modern web browser that can render `HTML5 canvas`.
