@@ -16,7 +16,6 @@
 Ensure you have met the following requirements:
 * You have a modern web browser that can render `HTML5 canvas`.
 * You have installed **p5.js** libraries.
-* You have installed `npm` package manager or `python 3.x` on your machine.
 # Installing the project
 * **Clone** or **download as ZIP** this repository.
 * Open repository folder.

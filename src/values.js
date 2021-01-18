@@ -27,7 +27,7 @@ const Heuristic = Object.freeze({
 const Speed = Object.freeze({
    'Fast': 3,
    'Normal': 1,
-   'Slow': 0.5
+   'Slow': 0.2
 });
 
 const NodeType = Object.freeze({

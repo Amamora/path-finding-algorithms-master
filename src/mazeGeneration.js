@@ -49,6 +49,7 @@ function dfs() {
 
         // If we have available neighbor(s), we choose a random neighbor
         // and remove the wall(obstacle cell) between these two cell.
+        
         if (validNeighbors.length > 0) {
             stack.push(current);
             let randNeighbor = random(validNeighbors);

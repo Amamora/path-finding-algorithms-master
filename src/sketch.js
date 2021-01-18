@@ -26,10 +26,7 @@ function setup() {
     w = w - (w % r);    // Prevent overflow
 
     
-    if(windowWidth<430){
-        h=353;
-        w=353;
-    }
+   
     
     cnv = createCanvas(w, h);
     cnv.style('display', 'block');

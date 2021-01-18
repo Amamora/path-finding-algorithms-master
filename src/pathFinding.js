@@ -50,7 +50,7 @@ function aStar(start, end, algorithm, heuristic) {
         let validNeighbors = [];
         let straightMoves = [[0, -1], [0, 1], [-1, 0], [1, 0]];//go left go right go go up go down
         let diagonalMoves = [[-1, -1], [1, -1], [-1, 1], [1, 1]];
-        
+
 
         // Check every straight move. If it is a valid move, then create a node
         // and add the node to valid neighbors list.
@@ -88,7 +88,7 @@ function aStar(start, end, algorithm, heuristic) {
             newNode.updateValues(currentNode, endNode);
             validNeighbors.push(newNode);
         }
-
+       
         for (let neighbor of validNeighbors) {
             if (!neighbor.isEqual(startNode) && !neighbor.isEqual(endNode)) {
                 let x = neighbor.position.x;
@@ -123,6 +123,7 @@ function aStar(start, end, algorithm, heuristic) {
             }
         }
     }
+  
 
     // No path found
     return {
