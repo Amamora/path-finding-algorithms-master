@@ -48,8 +48,9 @@ function aStar(start, end, algorithm, heuristic) {
         }
 
         let validNeighbors = [];
-        let straightMoves = [[0, -1], [0, 1], [-1, 0], [1, 0]];
+        let straightMoves = [[0, -1], [0, 1], [-1, 0], [1, 0]];//go left go right go go up go down
         let diagonalMoves = [[-1, -1], [1, -1], [-1, 1], [1, 1]];
+        
 
         // Check every straight move. If it is a valid move, then create a node
         // and add the node to valid neighbors list.
@@ -151,7 +152,7 @@ function bfs(start, end) {
         let currentNode = openList.shift();
         closedList.push(currentNode);
 
-        // If current node and end node is equal, then there is a path
+        // If current node and end node is equal, then there is a path,and stop
         // Backtrace the path and return a position array
         if (currentNode.isEqual(endNode)) {
             let path = [];

@@ -2,10 +2,12 @@ let board;
 let rowCount;
 let colCount;
 let pointStates;
+
 let visitedDrawingCompleted;
 let lastVisitedNo;
 let lastPathNo;
 let cnv;
+
 let currAlg;
 let currHeuristic;
 let currSpeed;
@@ -28,7 +30,7 @@ function setup() {
         h=353;
         w=353;
     }
-
+    
     cnv = createCanvas(w, h);
     cnv.style('display', 'block');
     cnv.parent('container');

@@ -9,7 +9,8 @@ class GraphNode {
         this.h = 0;
     }
 
-    calculateH(endNode) {
+    calculateH(endNode) {//f = g+h
+        //h herictic
         if (this.algorithm !== 'astar') {
             this.h = 0;
             return;
@@ -26,6 +27,7 @@ class GraphNode {
     }
 
     calculateG(currentNode) {
+        //cost of weight during run
         if ( this.position.x - currentNode.position.x === 0 || this.position.y - currentNode.position.y === 0 ) {
             this.g = currentNode.g + 1;
         } else {
