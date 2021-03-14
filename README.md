@@ -40,7 +40,7 @@ Ensure you have met the following requirements:
     * A*
     * Dijkstra
     * Breadth-first Search
-* For **A*** algorithm, you can choose different *heuristic* approaches:
+* For **A*** algorithm, you can choose different " *heuristic*" approaches:
     * Manhattan
     * Euclidean
 * You can generate mazes. Maze generation algorithm:
@@ -54,9 +54,9 @@ Ensure you have met the following requirements:
   
 All ideas and helps are welcome. For more, please contact with me.
 # Authors
-*Kalist Laconic (Tống Văn Nam )
-*Nguyễn Hoàng Anh Khoa
-*Hầu Kiến Tín
+*Kalist Laconic (Tống Văn Nam )*
+*Nguyễn Hoàng Anh Khoa*
+*Hầu Kiến Tín*
 
 
 
