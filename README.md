@@ -10,7 +10,7 @@
 
 # Description
 * Path finding algorithms implementation using **p5.js**
-* Official **p5.js** website: https://p5js.org/
+* Official **p5.js** website: https://p5js.org/ (I drawing matrix by p5js)
 
 # Prerequisites
 Ensure you have met the following requirements:
@@ -28,7 +28,7 @@ Ensure you have met the following requirements:
     ```
      http-server ./ -p 5500
     ```
-    * Open <a>http://localhost:5500/</a> in a web browser.
+    * Open <a>http://localhost:5500/</a> in a web browser.// base on your port
 
 # Using Path Finding 
 * **Left** mouse click will add objects.
